@@ -1,0 +1,786 @@
+{
+    "levelId": "003",
+    "playedTime": 0.0,
+    "unlockVipSlot": false,
+    "cars": [
+        {
+            "Id": "0",
+            "posX": -7.729999542236328,
+            "posZ": -1.8799998760223389,
+            "rotation": 287.0,
+            "carType": 0,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "1",
+            "posX": 4.140000343322754,
+            "posZ": 3.6999998092651369,
+            "rotation": 106.59999084472656,
+            "carType": 0,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "2",
+            "posX": -4.5199995040893559,
+            "posZ": -2.9802322387695315e-8,
+            "rotation": 197.0,
+            "carType": 0,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "3",
+            "posX": 4.920000076293945,
+            "posZ": -4.639999866485596,
+            "rotation": 197.0,
+            "carType": 0,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "4",
+            "posX": -2.500000238418579,
+            "posZ": -7.680000305175781,
+            "rotation": 197.0,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "5",
+            "posX": -1.3439998626708985,
+            "posZ": -8.02299976348877,
+            "rotation": 197.0,
+            "carType": 0,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "6",
+            "posX": 3.620000123977661,
+            "posZ": 0.1600000560283661,
+            "rotation": 17.20000457763672,
+            "carType": 0,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "7",
+            "posX": -3.440000057220459,
+            "posZ": -1.0199999809265137,
+            "rotation": 197.0,
+            "carType": 0,
+            "color": 2,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "8",
+            "posX": -0.6299998760223389,
+            "posZ": 3.7899999618530275,
+            "rotation": 287.0,
+            "carType": 0,
+            "color": 3,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "9",
+            "posX": -5.159999847412109,
+            "posZ": -2.1700000762939455,
+            "rotation": 197.0,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "10",
+            "posX": 4.265000343322754,
+            "posZ": 2.246999979019165,
+            "rotation": 17.20000457763672,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "11",
+            "posX": 5.590000152587891,
+            "posZ": 1.850000023841858,
+            "rotation": 16.899995803833009,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "12",
+            "posX": -5.800000190734863,
+            "posZ": -4.369999885559082,
+            "rotation": 197.0,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "13",
+            "posX": -7.380000114440918,
+            "posZ": -0.6499996185302734,
+            "rotation": 287.0,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "14",
+            "posX": 0.22000008821487428,
+            "posZ": 4.880000114440918,
+            "rotation": 287.0,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "15",
+            "posX": -1.6000001430511475,
+            "posZ": 2.510000228881836,
+            "rotation": 287.0,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "16",
+            "posX": 1.5300002098083497,
+            "posZ": 3.1300010681152345,
+            "rotation": 287.0,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "17",
+            "posX": 2.660000801086426,
+            "posZ": -5.079999923706055,
+            "rotation": 106.4000015258789,
+            "carType": 0,
+            "color": 2,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "18",
+            "posX": -2.7799999713897707,
+            "posZ": 4.449999809265137,
+            "rotation": 287.0,
+            "carType": 0,
+            "color": 5,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "19",
+            "posX": -7.0329999923706059,
+            "posZ": 0.48600003123283389,
+            "rotation": 287.0,
+            "carType": 1,
+            "color": 5,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "20",
+            "posX": -6.859999656677246,
+            "posZ": -5.070000171661377,
+            "rotation": 286.6398620605469,
+            "carType": 1,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "21",
+            "posX": -4.239999771118164,
+            "posZ": -1.5999999046325684,
+            "rotation": 286.6398620605469,
+            "carType": 1,
+            "color": 4,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "22",
+            "posX": 4.930000305175781,
+            "posZ": -0.2599997818470001,
+            "rotation": 17.20000457763672,
+            "carType": 1,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "23",
+            "posX": 6.149999618530273,
+            "posZ": -0.5999999046325684,
+            "rotation": 17.200002670288087,
+            "carType": 1,
+            "color": 5,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "24",
+            "posX": -0.8999996185302734,
+            "posZ": -1.75,
+            "rotation": 197.0,
+            "carType": 1,
+            "color": 5,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "25",
+            "posX": -4.929999351501465,
+            "posZ": -4.199999809265137,
+            "rotation": 286.6398620605469,
+            "carType": 1,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "26",
+            "posX": -2.740000009536743,
+            "posZ": -4.849999904632568,
+            "rotation": 286.6398620605469,
+            "carType": 1,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "27",
+            "posX": -4.189999580383301,
+            "posZ": -2.9499998092651369,
+            "rotation": 286.6398620605469,
+            "carType": 1,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "28",
+            "posX": 1.0500000715255738,
+            "posZ": -6.009999752044678,
+            "rotation": 106.4000015258789,
+            "carType": 1,
+            "color": 5,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "29",
+            "posX": -0.16499996185302735,
+            "posZ": -2.867000102996826,
+            "rotation": 287.0,
+            "carType": 1,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "30",
+            "posX": -6.689999580383301,
+            "posZ": 1.6900001764297486,
+            "rotation": 287.0,
+            "carType": 1,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "31",
+            "posX": -6.34999942779541,
+            "posZ": 2.809999942779541,
+            "rotation": 287.0,
+            "carType": 1,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "32",
+            "posX": -1.8599998950958253,
+            "posZ": 5.529998779296875,
+            "rotation": 287.0,
+            "carType": 1,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "33",
+            "posX": -3.3400001525878908,
+            "posZ": 3.8499999046325685,
+            "rotation": 17.20000457763672,
+            "carType": 1,
+            "color": 2,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "34",
+            "posX": -4.819999694824219,
+            "posZ": -7.0,
+            "rotation": 197.0,
+            "carType": 1,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "35",
+            "posX": -3.6500000953674318,
+            "posZ": -7.329999923706055,
+            "rotation": 197.0,
+            "carType": 1,
+            "color": 5,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "36",
+            "posX": 1.8200000524520875,
+            "posZ": -1.309999942779541,
+            "rotation": 197.0,
+            "carType": 1,
+            "color": 0,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "37",
+            "posX": 2.370000123977661,
+            "posZ": -3.8499999046325685,
+            "rotation": 197.0,
+            "carType": 1,
+            "color": 4,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "38",
+            "posX": -2.2279999256134035,
+            "posZ": -2.241999864578247,
+            "rotation": 287.0,
+            "carType": 1,
+            "color": 0,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "39",
+            "posX": -2.059999942779541,
+            "posZ": 3.5,
+            "rotation": 16.942657470703126,
+            "carType": 2,
+            "color": 4,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "40",
+            "posX": 1.2200000286102296,
+            "posZ": 0.8200000524520874,
+            "rotation": 17.30000114440918,
+            "carType": 2,
+            "color": 2,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "41",
+            "posX": 0.4500001072883606,
+            "posZ": -4.400000095367432,
+            "rotation": 106.89999389648438,
+            "carType": 2,
+            "color": 5,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "42",
+            "posX": 3.440000057220459,
+            "posZ": -5.130000114440918,
+            "rotation": 197.0,
+            "carType": 2,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "43",
+            "posX": -2.1700000762939455,
+            "posZ": -1.3899998664855958,
+            "rotation": 197.0,
+            "carType": 0,
+            "color": 0,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "44",
+            "posX": 0.4599999785423279,
+            "posZ": 1.8800002336502076,
+            "rotation": 287.0,
+            "carType": 2,
+            "color": 6,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "45",
+            "posX": -2.109999895095825,
+            "posZ": 1.190000057220459,
+            "rotation": 287.0,
+            "carType": 2,
+            "color": 0,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        }
+    ],
+    "passengers": [
+        {
+            "colorCar": 6,
+            "count": 2
+        },
+        {
+            "colorCar": 6,
+            "count": 2
+        },
+        {
+            "colorCar": 6,
+            "count": 4
+        },
+        {
+            "colorCar": 6,
+            "count": 4
+        },
+        {
+            "colorCar": 6,
+            "count": 4
+        },
+        {
+            "colorCar": 6,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 4
+        },
+        {
+            "colorCar": 6,
+            "count": 4
+        },
+        {
+            "colorCar": 2,
+            "count": 4
+        },
+        {
+            "colorCar": 6,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 2
+        },
+        {
+            "colorCar": 3,
+            "count": 4
+        },
+        {
+            "colorCar": 1,
+            "count": 4
+        },
+        {
+            "colorCar": 1,
+            "count": 4
+        },
+        {
+            "colorCar": 1,
+            "count": 4
+        },
+        {
+            "colorCar": 1,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 4
+        },
+        {
+            "colorCar": 1,
+            "count": 4
+        },
+        {
+            "colorCar": 5,
+            "count": 4
+        },
+        {
+            "colorCar": 5,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 4
+        },
+        {
+            "colorCar": 2,
+            "count": 2
+        },
+        {
+            "colorCar": 5,
+            "count": 2
+        },
+        {
+            "colorCar": 2,
+            "count": 2
+        },
+        {
+            "colorCar": 5,
+            "count": 2
+        },
+        {
+            "colorCar": 4,
+            "count": 6
+        },
+        {
+            "colorCar": 6,
+            "count": 6
+        },
+        {
+            "colorCar": 6,
+            "count": 6
+        },
+        {
+            "colorCar": 5,
+            "count": 6
+        },
+        {
+            "colorCar": 6,
+            "count": 4
+        },
+        {
+            "colorCar": 5,
+            "count": 3
+        },
+        {
+            "colorCar": 6,
+            "count": 4
+        },
+        {
+            "colorCar": 6,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 4
+        },
+        {
+            "colorCar": 5,
+            "count": 3
+        },
+        {
+            "colorCar": 6,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 3
+        },
+        {
+            "colorCar": 5,
+            "count": 3
+        },
+        {
+            "colorCar": 6,
+            "count": 6
+        },
+        {
+            "colorCar": 5,
+            "count": 3
+        },
+        {
+            "colorCar": 1,
+            "count": 6
+        },
+        {
+            "colorCar": 1,
+            "count": 3
+        },
+        {
+            "colorCar": 2,
+            "count": 6
+        },
+        {
+            "colorCar": 5,
+            "count": 4
+        },
+        {
+            "colorCar": 6,
+            "count": 6
+        },
+        {
+            "colorCar": 1,
+            "count": 6
+        },
+        {
+            "colorCar": 5,
+            "count": 2
+        },
+        {
+            "colorCar": 4,
+            "count": 6
+        },
+        {
+            "colorCar": 0,
+            "count": 2
+        },
+        {
+            "colorCar": 0,
+            "count": 4
+        },
+        {
+            "colorCar": 0,
+            "count": 2
+        },
+        {
+            "colorCar": 0,
+            "count": 2
+        },
+        {
+            "colorCar": 4,
+            "count": 8
+        },
+        {
+            "colorCar": 0,
+            "count": 2
+        },
+        {
+            "colorCar": 2,
+            "count": 3
+        },
+        {
+            "colorCar": 5,
+            "count": 5
+        },
+        {
+            "colorCar": 0,
+            "count": 4
+        },
+        {
+            "colorCar": 1,
+            "count": 2
+        },
+        {
+            "colorCar": 1,
+            "count": 6
+        },
+        {
+            "colorCar": 5,
+            "count": 3
+        },
+        {
+            "colorCar": 2,
+            "count": 5
+        },
+        {
+            "colorCar": 6,
+            "count": 8
+        },
+        {
+            "colorCar": 0,
+            "count": 4
+        },
+        {
+            "colorCar": 0,
+            "count": 4
+        }
+    ],
+    "basements": [],
+    "carBelts": [],
+    "numSlotUnlock": 0
+}

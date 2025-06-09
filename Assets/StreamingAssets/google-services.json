@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327302205784",
+    "project_id": "bus-match-puzzle",
+    "storage_bucket": "bus-match-puzzle.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327302205784:android:0663b3da4bbd0fdb95552d",
+        "android_client_info": {
+          "package_name": "com.funzilla.bus.out"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjULpLBv0mbi9prmvasGpzL0EOKcNXSBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

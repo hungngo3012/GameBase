@@ -1,0 +1,16 @@
+{
+    "levelId": "038",
+    "cars": [],
+    "passengers": [],
+    "basements": [],
+    "carBelts": [
+        {
+            "posZ": 6.0,
+            "hiddenCars": []
+        },
+        {
+            "posZ": -8.0,
+            "hiddenCars": []
+        }
+    ]
+}

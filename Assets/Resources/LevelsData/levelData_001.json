@@ -1,0 +1,88 @@
+{
+    "levelId": "001",
+    "playedTime": 0.0,
+    "unlockVipSlot": false,
+    "cars": [
+        {
+            "Id": "0",
+            "posX": 1.0880262851715088,
+            "posZ": -1.2034456729888917,
+            "rotation": 44.999996185302737,
+            "carType": 0,
+            "color": 1,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "1",
+            "posX": -2.419224262237549,
+            "posZ": -1.2317304611206055,
+            "rotation": 315.0,
+            "carType": 0,
+            "color": 2,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "2",
+            "posX": -2.3697264194488527,
+            "posZ": -4.717766761779785,
+            "rotation": 223.43057250976563,
+            "carType": 1,
+            "color": 4,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        },
+        {
+            "Id": "3",
+            "posX": -0.36000001430511477,
+            "posZ": -3.309999942779541,
+            "rotation": 315.0,
+            "carType": 2,
+            "color": 0,
+            "isHiddenColor": false,
+            "countPass": -1,
+            "curBasement": ""
+        }
+    ],
+  "passengers": [
+    {
+      "colorCar": 2,
+      "count": 2
+    },
+    {
+      "colorCar": 2,
+      "count": 2
+    },
+    {
+      "colorCar": 1,
+      "count": 2
+    },
+    {
+      "colorCar": 0,
+      "count": 2
+    },
+    {
+      "colorCar": 0,
+      "count": 2
+    },
+    {
+      "colorCar": 4,
+      "count": 6
+    },
+    {
+      "colorCar": 0,
+      "count": 4
+    },
+    {
+      "colorCar": 1,
+      "count": 2
+    }
+  ],
+    "basements": [],
+    "carBelts": [],
+    "numSlotUnlock": 0
+}

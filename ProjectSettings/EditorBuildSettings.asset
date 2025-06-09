@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/NinthArt/Managers/GameManager.unity
+    guid: 1f6b3809b99cceb4695f04ca30ae51ae
+  - enabled: 1
+    path: Assets/Game/Gameplay/Gameplay.unity
+    guid: 87540a2ea724d6d46a644c5c03dea8bf
+  - enabled: 1
+    path: Assets/Game/SettingUI/SettingUI.unity
+    guid: b69bdde21d9bffb44ba0e0ac36081ca5
+  - enabled: 1
+    path: Assets/Game/WinUI/WinUI.unity
+    guid: fe84ba9488c68b24682d2aaa9d5552f2
+  - enabled: 1
+    path: Assets/Game/LoseUI/LoseUI.unity
+    guid: 8e81d6b05b7ed014ca1c6dbb07b81a6c
+  - enabled: 1
+    path: Assets/Game/Gameplay/UI/WatchAds/Sort.unity
+    guid: d5d3c63a7da9d944fb44aaac35c72b6c
+  - enabled: 1
+    path: Assets/Game/Gameplay/UI/WatchAds/Shuffle.unity
+    guid: c694d3b470fe3574085bf8a1a7d862ad
+  - enabled: 1
+    path: Assets/Game/Gameplay/UI/WatchAds/VipSlot.unity
+    guid: f7b378b184aea0c4e890601da2c7829b
+  - enabled: 1
+    path: Assets/Game/ReplayUi/ReplayUi.unity
+    guid: 5b50da42db0543a479ca2667600c8cd1
+  - enabled: 1
+    path: Assets/Game/LoadingUI/LoadingScene.unity
+    guid: 45fd5b2c37c13574b905665f35bae264
+  - enabled: 1
+    path: Assets/Game/ShopUi/ShopUi.unity
+    guid: 464c9bcb47b3bbd448499debcdc4b84d
+  - enabled: 1
+    path: Assets/Game/PurchaseSuccessUi/PurchaseSuccessUi.unity
+    guid: 7f4d1eba5d95c1a40976d4b24a7148e9
+  - enabled: 1
+    path: Assets/Game/StageUi/StageUi.unity
+    guid: c6604a105e1566e409659e4c609a1ab2
+  - enabled: 1
+    path: Assets/Game/NotiUi/NotiUi.unity
+    guid: 041f4aa10f73fea4fa3a211f4d862446
+  - enabled: 1
+    path: Assets/Game/LuckyWheelUi/LuckyWheelUi.unity
+    guid: f58624804c28f42439e417946db85733
+  - enabled: 1
+    path: Assets/Game/RankingUi/RankingUi.unity
+    guid: 0254f8f557e71c14a9cc357502180481
+  - enabled: 1
+    path: Assets/Game/UnlockUi/UnlockShuffle.unity
+    guid: 55b3a167c3655ed4b87334a26adb9845
+  - enabled: 1
+    path: Assets/Game/UnlockUi/UnlockSort.unity
+    guid: 72777032d72210e4a852e86c8002b240
+  - enabled: 1
+    path: Assets/Game/UnlockUi/UnlockVipSlot.unity
+    guid: 10915bafb7a9b6e48a005b20e07bd241
+  - enabled: 1
+    path: Assets/Game/HomeUi/Home.unity
+    guid: fd2e7547312d30c48877ba6a840df5c0
+  - enabled: 1
+    path: Assets/Game/HomeUi/HomeTab/HomeTab.unity
+    guid: c803dd1e361fdb046b1561e79705c33c
+  - enabled: 1
+    path: Assets/Game/HomeUi/Info/InfoUi.unity
+    guid: af6c37e18bc9a9042a3ea7edc5c4ea01
+  - enabled: 1
+    path: Assets/Game/HomeUi/Info/ChangeName.unity
+    guid: 59448fd53be78854cbc2400532eea10a
+  - enabled: 1
+    path: Assets/Game/RateUi/RateUi.unity
+    guid: 2904635f8df3f3b4c8eebc2f8ebc0c35
+  - enabled: 1
+    path: Assets/Game/LoadingUI/LoadResumeAds.unity
+    guid: d6b58567f132bbf41aaf666a89324bae
+  m_configObjects: {}
