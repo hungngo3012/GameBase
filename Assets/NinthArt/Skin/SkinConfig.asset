@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac23502a705f0d245bba41384c180b14, type: 3}
+  m_Name: SkinConfig
+  m_EditorClassIdentifier: 
+  skins:
+  - skinId: Beach
+    skinName: Beach
+    numStarsToUnlock: 20
+    coinCollectPerDay: 20
+    skinBg: {fileID: 21300000, guid: d8261af50bc117e4e801a73bc799f252, type: 3}
+    env: {fileID: 6835316702699008689, guid: 178f3e13aa57eb643940b7bc9d1cb3d1, type: 3}
+    carModels: []
+    passenger: {fileID: 0}
+    garage: {fileID: 0}
+    belt: {fileID: 0}
+  - skinId: IceAge
+    skinName: Snow
+    numStarsToUnlock: 25
+    coinCollectPerDay: 30
+    skinBg: {fileID: 21300000, guid: a056c34e1a95afe4eb7705ca837d68c4, type: 3}
+    env: {fileID: 2091317540842919187, guid: 509946b05a2a68846933ebfd5899e8f6, type: 3}
+    carModels: []
+    passenger: {fileID: 0}
+    garage: {fileID: 0}
+    belt: {fileID: 0}
+  - skinId: Hospital
+    skinName: Hospital
+    numStarsToUnlock: 15
+    coinCollectPerDay: 15
+    skinBg: {fileID: 21300000, guid: e255713a68b778b45afc1887811656e0, type: 3}
+    env: {fileID: 7119085993353836261, guid: 96ffb3b4928935143893f5c424a3fc5e, type: 3}
+    carModels: []
+    passenger: {fileID: 0}
+    garage: {fileID: 0}
+    belt: {fileID: 0}
+  - skinId: Bank
+    skinName: Bank
+    numStarsToUnlock: 25
+    coinCollectPerDay: 30
+    skinBg: {fileID: 21300000, guid: 5d5ba482b3eca19498fd22c62b2a6cdc, type: 3}
+    env: {fileID: 8029854854679359946, guid: fec875287bc1aa546b8c41303296d4c2, type: 3}
+    carModels: []
+    passenger: {fileID: 0}
+    garage: {fileID: 0}
+    belt: {fileID: 0}
+  - skinId: School
+    skinName: School
+    numStarsToUnlock: 25
+    coinCollectPerDay: 30
+    skinBg: {fileID: 21300000, guid: 5f7c960f9a81e2243b9396a31793f783, type: 3}
+    env: {fileID: 6486776113861164128, guid: 66465108a48316f45ba3c081a7c60af2, type: 3}
+    carModels: []
+    passenger: {fileID: 0}
+    garage: {fileID: 0}
+    belt: {fileID: 0}
+  - skinId: Picnic
+    skinName: Picnic
+    numStarsToUnlock: 20
+    coinCollectPerDay: 20
+    skinBg: {fileID: 21300000, guid: 33d51b2e92d281142b0577b9278eada7, type: 3}
+    env: {fileID: 988577969989875434, guid: d20dc9e6e81938e4fa493c70f32fe09d, type: 3}
+    carModels: []
+    passenger: {fileID: 0}
+    garage: {fileID: 0}
+    belt: {fileID: 0}
+  - skinId: Circus
+    skinName: Circus
+    numStarsToUnlock: 30
+    coinCollectPerDay: 35
+    skinBg: {fileID: 21300000, guid: 43a562981608d944db6f4c7b45308853, type: 3}
+    env: {fileID: 6351252227806313814, guid: dc9f79625645d034ea0f0c0cb7c4e48a, type: 3}
+    carModels: []
+    passenger: {fileID: 0}
+    garage: {fileID: 0}
+    belt: {fileID: 0}
+  - skinId: Island
+    skinName: Island
+    numStarsToUnlock: 40
+    coinCollectPerDay: 40
+    skinBg: {fileID: 21300000, guid: 9986de179226fcd4a96e1cd65398b730, type: 3}
+    env: {fileID: 4314760463028455640, guid: b8b6bdb21e6afc84c9ed9493852d7cfc, type: 3}
+    carModels:
+    - {fileID: 3290920883942301143, guid: 301d347c10ab77f4db5c554ec76c94ed, type: 3}
+    - {fileID: 2394776899388449523, guid: f39f2b43e7fac0c4da7ca1ca41052b8a, type: 3}
+    - {fileID: 3538870782793977321, guid: c1ceced1d2e530c469c6631d2c780751, type: 3}
+    - {fileID: 3538870782793977321, guid: c1ceced1d2e530c469c6631d2c780751, type: 3}
+    passenger: {fileID: 0}
+    garage: {fileID: 0}
+    belt: {fileID: 0}
+  defaultSkins:
+    skinId: Default
+    skinName: Bus Station
+    numStarsToUnlock: 0
+    coinCollectPerDay: 0
+    skinBg: {fileID: 21300000, guid: f30527d6993edff49bb3b128d043167a, type: 3}
+    env: {fileID: 1558907618106730433, guid: 8dfcfd173362ad04c9de61dc10a93084, type: 3}
+    carModels:
+    - {fileID: 1661407220851578390, guid: 98091191b6a99c34889020b61cbce08e, type: 3}
+    - {fileID: 3176899966223486692, guid: bd45ba1821ccadf42b1c978e5bc815d0, type: 3}
+    - {fileID: 4482847084984950954, guid: d574b4abd4a17cc468ca126ebdd57d4e, type: 3}
+    - {fileID: 4482847084984950954, guid: d574b4abd4a17cc468ca126ebdd57d4e, type: 3}
+    passenger: {fileID: 3837276630815924752, guid: 127f81c6b3c665741b0306c5873a27e1, type: 3}
+    garage: {fileID: 5066254013885695283, guid: dbf7505ba29ed264bac4668738b2a4e5, type: 3}
+    belt: {fileID: 3203436882276455988, guid: b87e06f1c80f14a40bb3d49856d5fae0, type: 3}
+  avatars:
+  - avatar: {fileID: 21300000, guid: 9f24d628260415c40b9c47557060a7f0, type: 3}
+  - avatar: {fileID: 21300000, guid: 5e3ec2cc2aae6bc4b9762d1f6a84bf17, type: 3}
+  - avatar: {fileID: 21300000, guid: 190c9aaeefbfacc409f04264a5f22e47, type: 3}
+  - avatar: {fileID: 21300000, guid: b87aa20e10a1cbc43a570e2e7ff497bc, type: 3}
+  - avatar: {fileID: 21300000, guid: a2ec0540caf21234db53b9912aea0ad5, type: 3}
+  - avatar: {fileID: 21300000, guid: 580a04f510602094e9f0ee391f393f62, type: 3}
+  - avatar: {fileID: 21300000, guid: 987866afeebf32544897308b9c292b62, type: 3}
+  - avatar: {fileID: 21300000, guid: 59fe6dd75d7294642942da073457b9ff, type: 3}
+  - avatar: {fileID: 21300000, guid: 8cc0dc6296e553540ac81999ba39dbf9, type: 3}
+  - avatar: {fileID: 21300000, guid: 3e39748f984099a4e8d0c01c2f3e2cde, type: 3}
+  - avatar: {fileID: 21300000, guid: c26a5568fa866a64a86c94f1aecacca5, type: 3}
+  - avatar: {fileID: 21300000, guid: 9e87353b2b870ec4cb5a83114c3321d5, type: 3}
+  - avatar: {fileID: 21300000, guid: 449264e66b562844498729b2af6d2af3, type: 3}
+  - avatar: {fileID: 21300000, guid: c30dddf12a7985f44b051bbdd1a44f00, type: 3}
+  - avatar: {fileID: 21300000, guid: 89ad65d0f55dc484c8f8117c2f4b7e01, type: 3}
+  - avatar: {fileID: 21300000, guid: 1ca1789cc2c29994cb489672bc33b925, type: 3}
+  - avatar: {fileID: 21300000, guid: 57f368fbeffb1234faa8e23cdca85984, type: 3}
+  - avatar: {fileID: 21300000, guid: a30f86cdf08641d4a847cfc67f84a053, type: 3}
+  - avatar: {fileID: 21300000, guid: eb3c389416147504ea191f863d5127b1, type: 3}
+  - avatar: {fileID: 21300000, guid: 9a4e7da0ce0923f41a545cfc42151b79, type: 3}
+  - avatar: {fileID: 21300000, guid: 4eb55cce69ddd9646bf7e9c13049722f, type: 3}
+  - avatar: {fileID: 21300000, guid: 8f7eeb47dbd0eed4885d1f29d0261b4e, type: 3}
+  - avatar: {fileID: 21300000, guid: 9ffa754f22f852849818f2c80efb2516, type: 3}
+  - avatar: {fileID: 21300000, guid: 2d272a2bf29eaca429348bc8952f1df9, type: 3}
+  - avatar: {fileID: 21300000, guid: a48a00476821ad744b3a04af11ab6770, type: 3}
+  rankingAvas:
+  - avatar: {fileID: 21300000, guid: c088be2a6b395574f9fe278756dfa7bd, type: 3}
+  - avatar: {fileID: 21300000, guid: 260e5ccf0288cf0488c02be059a676ff, type: 3}
+  - avatar: {fileID: 21300000, guid: b1e1cb3561c87e54b93578e014f890d3, type: 3}
+  - avatar: {fileID: 21300000, guid: 4a806f18e1a3e3246a652278a03d1ec8, type: 3}
+  - avatar: {fileID: 21300000, guid: 93e452ef6f524834f9132207fdd6b083, type: 3}
+  - avatar: {fileID: 21300000, guid: 2f5af38ecaa3bc343afcd26d4eb0fed7, type: 3}
+  - avatar: {fileID: 21300000, guid: 973b5f600ef1ca34593d552a1ca97583, type: 3}
+  - avatar: {fileID: 21300000, guid: 9b9e5ae5c545f984db6362939b1e47d0, type: 3}
+  - avatar: {fileID: 21300000, guid: d375768a14307404aa42b8958172e2ee, type: 3}
+  - avatar: {fileID: 21300000, guid: d66e3a1b68c9efa4e88708545187776f, type: 3}
+  - avatar: {fileID: 21300000, guid: 8fb5af793fa3dc94dbc92715f00461e6, type: 3}
+  - avatar: {fileID: 21300000, guid: 7290f7a0ae736854c9720da2b0514d8a, type: 3}
+  - avatar: {fileID: 21300000, guid: 226b747b15df30b4a98f0cc7c11ac01b, type: 3}
+  - avatar: {fileID: 21300000, guid: 06b8ffbe2c2ab614e8ce665379eae3e7, type: 3}
+  - avatar: {fileID: 21300000, guid: 0b0506b663391e145a24e0694e185395, type: 3}
+  - avatar: {fileID: 21300000, guid: 58b8b32fe65a2de4493ab21f99e6a322, type: 3}
+  - avatar: {fileID: 21300000, guid: 7526f9ce9ff35374ab01bcc19712d09d, type: 3}
+  - avatar: {fileID: 21300000, guid: 66e92a830bbd119489dd09ad225895f5, type: 3}
+  - avatar: {fileID: 21300000, guid: 3a3a31d22d7857048a39b3dfae73fdf3, type: 3}
+  - avatar: {fileID: 21300000, guid: 732510f9c6f65e64b81961c427c1d121, type: 3}
+  - avatar: {fileID: 21300000, guid: cf0f463bc7783474e82db0618d7580fb, type: 3}
+  - avatar: {fileID: 21300000, guid: 26f77742092918748a02614cbbf95913, type: 3}
+  - avatar: {fileID: 21300000, guid: 669d681bd1e1ca842a6c03b07ca09ed9, type: 3}
+  - avatar: {fileID: 21300000, guid: 6f6195a2fa7db474e9ea07fee83d79b9, type: 3}
+  - avatar: {fileID: 21300000, guid: f77cc50e0489d574f996e35196f045e3, type: 3}
