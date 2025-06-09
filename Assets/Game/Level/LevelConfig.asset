@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d3234158f40f64c9753b65f205e59b, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: 
+  configs:
+  - levelIndex: 1
+    coinEarn: 5
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 0
+    fixColor: 0
+  - levelIndex: 2
+    coinEarn: 30
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 3
+    coinEarn: 30
+    twoStarTime: 350
+    threeStarTime: 230
+    diff: 0
+    fixColor: 0
+  - levelIndex: 4
+    coinEarn: 20
+    twoStarTime: 245
+    threeStarTime: 125
+    diff: 0
+    fixColor: 0
+  - levelIndex: 5
+    coinEarn: 35
+    twoStarTime: 420
+    threeStarTime: 300
+    diff: 0
+    fixColor: 0
+  - levelIndex: 6
+    coinEarn: 25
+    twoStarTime: 270
+    threeStarTime: 150
+    diff: 1
+    fixColor: 0
+  - levelIndex: 7
+    coinEarn: 30
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 0
+    fixColor: 0
+  - levelIndex: 8
+    coinEarn: 30
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 0
+    fixColor: 0
+  - levelIndex: 9
+    coinEarn: 20
+    twoStarTime: 255
+    threeStarTime: 135
+    diff: 0
+    fixColor: 0
+  - levelIndex: 10
+    coinEarn: 30
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 0
+    fixColor: 0
+  - levelIndex: 11
+    coinEarn: 25
+    twoStarTime: 265
+    threeStarTime: 145
+    diff: 0
+    fixColor: 0
+  - levelIndex: 12
+    coinEarn: 50
+    twoStarTime: 460
+    threeStarTime: 340
+    diff: 1
+    fixColor: 0
+  - levelIndex: 13
+    coinEarn: 30
+    twoStarTime: 280
+    threeStarTime: 160
+    diff: 0
+    fixColor: 0
+  - levelIndex: 14
+    coinEarn: 35
+    twoStarTime: 320
+    threeStarTime: 200
+    diff: 0
+    fixColor: 0
+  - levelIndex: 15
+    coinEarn: 35
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 2
+    fixColor: 0
+  - levelIndex: 16
+    coinEarn: 40
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 17
+    coinEarn: 35
+    twoStarTime: 290
+    threeStarTime: 170
+    diff: 0
+    fixColor: 0
+  - levelIndex: 18
+    coinEarn: 50
+    twoStarTime: 385
+    threeStarTime: 265
+    diff: 0
+    fixColor: 0
+  - levelIndex: 19
+    coinEarn: 40
+    twoStarTime: 350
+    threeStarTime: 230
+    diff: 0
+    fixColor: 0
+  - levelIndex: 20
+    coinEarn: 50
+    twoStarTime: 435
+    threeStarTime: 315
+    diff: 1
+    fixColor: 0
+  - levelIndex: 21
+    coinEarn: 50
+    twoStarTime: 390
+    threeStarTime: 270
+    diff: 0
+    fixColor: 0
+  - levelIndex: 22
+    coinEarn: 50
+    twoStarTime: 390
+    threeStarTime: 270
+    diff: 0
+    fixColor: 0
+  - levelIndex: 23
+    coinEarn: 55
+    twoStarTime: 480
+    threeStarTime: 360
+    diff: 0
+    fixColor: 0
+  - levelIndex: 24
+    coinEarn: 50
+    twoStarTime: 390
+    threeStarTime: 270
+    diff: 2
+    fixColor: 0
+  - levelIndex: 25
+    coinEarn: 50
+    twoStarTime: 420
+    threeStarTime: 300
+    diff: 0
+    fixColor: 0
+  - levelIndex: 26
+    coinEarn: 20
+    twoStarTime: 240
+    threeStarTime: 120
+    diff: 2
+    fixColor: 0
+  - levelIndex: 27
+    coinEarn: 35
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 0
+    fixColor: 0
+  - levelIndex: 28
+    coinEarn: 35
+    twoStarTime: 280
+    threeStarTime: 160
+    diff: 0
+    fixColor: 0
+  - levelIndex: 29
+    coinEarn: 35
+    twoStarTime: 330
+    threeStarTime: 210
+    diff: 2
+    fixColor: 0
+  - levelIndex: 30
+    coinEarn: 45
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 31
+    coinEarn: 180
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 1
+    fixColor: 0
+  - levelIndex: 32
+    coinEarn: 45
+    twoStarTime: 350
+    threeStarTime: 230
+    diff: 0
+    fixColor: 0
+  - levelIndex: 33
+    coinEarn: 175
+    twoStarTime: 390
+    threeStarTime: 270
+    diff: 0
+    fixColor: 0
+  - levelIndex: 34
+    coinEarn: 210
+    twoStarTime: 420
+    threeStarTime: 300
+    diff: 0
+    fixColor: 0
+  - levelIndex: 35
+    coinEarn: 155
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 36
+    coinEarn: 165
+    twoStarTime: 330
+    threeStarTime: 210
+    diff: 1
+    fixColor: 0
+  - levelIndex: 37
+    coinEarn: 165
+    twoStarTime: 340
+    threeStarTime: 220
+    diff: 0
+    fixColor: 0
+  - levelIndex: 38
+    coinEarn: 190
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 0
+    fixColor: 0
+  - levelIndex: 39
+    coinEarn: 210
+    twoStarTime: 420
+    threeStarTime: 300
+    diff: 0
+    fixColor: 0
+  - levelIndex: 40
+    coinEarn: 50
+    twoStarTime: 390
+    threeStarTime: 270
+    diff: 0
+    fixColor: 0
+  - levelIndex: 41
+    coinEarn: 190
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 1
+    fixColor: 0
+  - levelIndex: 42
+    coinEarn: 45
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 43
+    coinEarn: 190
+    twoStarTime: 330
+    threeStarTime: 210
+    diff: 1
+    fixColor: 0
+  - levelIndex: 44
+    coinEarn: 50
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 1
+    fixColor: 0
+  - levelIndex: 45
+    coinEarn: 50
+    twoStarTime: 420
+    threeStarTime: 300
+    diff: 0
+    fixColor: 0
+  - levelIndex: 46
+    coinEarn: 200
+    twoStarTime: 450
+    threeStarTime: 330
+    diff: 0
+    fixColor: 0
+  - levelIndex: 47
+    coinEarn: 180
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 0
+    fixColor: 0
+  - levelIndex: 48
+    coinEarn: 210
+    twoStarTime: 330
+    threeStarTime: 210
+    diff: 0
+    fixColor: 0
+  - levelIndex: 49
+    coinEarn: 195
+    twoStarTime: 300
+    threeStarTime: 180
+    diff: 0
+    fixColor: 0
+  - levelIndex: 50
+    coinEarn: 210
+    twoStarTime: 330
+    threeStarTime: 210
+    diff: 0
+    fixColor: 0
+  - levelIndex: 51
+    coinEarn: 280
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 52
+    coinEarn: 130
+    twoStarTime: 240
+    threeStarTime: 120
+    diff: 0
+    fixColor: 0
+  - levelIndex: 53
+    coinEarn: 200
+    twoStarTime: 320
+    threeStarTime: 200
+    diff: 0
+    fixColor: 0
+  - levelIndex: 54
+    coinEarn: 55
+    twoStarTime: 390
+    threeStarTime: 270
+    diff: 0
+    fixColor: 0
+  - levelIndex: 55
+    coinEarn: 210
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 56
+    coinEarn: 60
+    twoStarTime: 240
+    threeStarTime: 120
+    diff: 1
+    fixColor: 0
+  - levelIndex: 57
+    coinEarn: 210
+    twoStarTime: 330
+    threeStarTime: 210
+    diff: 0
+    fixColor: 0
+  - levelIndex: 58
+    coinEarn: 210
+    twoStarTime: 310
+    threeStarTime: 190
+    diff: 0
+    fixColor: 0
+  - levelIndex: 59
+    coinEarn: 210
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 60
+    coinEarn: 45
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 61
+    coinEarn: 210
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 1
+    fixColor: 0
+  - levelIndex: 62
+    coinEarn: 210
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 0
+    fixColor: 0
+  - levelIndex: 63
+    coinEarn: 210
+    twoStarTime: 420
+    threeStarTime: 300
+    diff: 1
+    fixColor: 0
+  - levelIndex: 64
+    coinEarn: 210
+    twoStarTime: 320
+    threeStarTime: 200
+    diff: 0
+    fixColor: 0
+  - levelIndex: 65
+    coinEarn: 210
+    twoStarTime: 330
+    threeStarTime: 210
+    diff: 2
+    fixColor: 0
+  - levelIndex: 66
+    coinEarn: 210
+    twoStarTime: 370
+    threeStarTime: 250
+    diff: 0
+    fixColor: 0
+  - levelIndex: 67
+    coinEarn: 210
+    twoStarTime: 240
+    threeStarTime: 120
+    diff: 0
+    fixColor: 0
+  - levelIndex: 68
+    coinEarn: 210
+    twoStarTime: 240
+    threeStarTime: 120
+    diff: 2
+    fixColor: 0
+  - levelIndex: 69
+    coinEarn: 210
+    twoStarTime: 360
+    threeStarTime: 240
+    diff: 1
+    fixColor: 0
+  - levelIndex: 70
+    coinEarn: 0
+    twoStarTime: 270
+    threeStarTime: 150
+    diff: 3
+    fixColor: 0
+  diffs:
+  - groupSize: 4
+    minSameColorInRow: 2
+    maxSameColorInRow: 8
+  - groupSize: 4
+    minSameColorInRow: 1
+    maxSameColorInRow: 6
+  - groupSize: 6
+    minSameColorInRow: 1
+    maxSameColorInRow: 5
+  - groupSize: 8
+    minSameColorInRow: 1
+    maxSameColorInRow: 2
+  unlockToolLevels: 030000000400000005000000
