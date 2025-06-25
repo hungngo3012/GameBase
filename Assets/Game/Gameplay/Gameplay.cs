@@ -234,8 +234,7 @@ namespace NinthArt
 			gameplayMainCam.orthographicSize = size;
 			//GameManager.ShowNoti("screen size: " + Screen.width + "x" + Screen.height + " - " + "orthographicSize: " + gameplayMainCam.orthographicSize);
 			camOSizeTxt.text = gameplayMainCam.orthographicSize.ToString();
-
-			AdmobBannerController.ShowBanner();
+			
 			EventManager.Subscribe(EventType.CoinAmountChanged, UpdateCoin);
 			EventManager.Subscribe(EventType.StarAmountChanged, UpdateStar);
 		}
@@ -310,15 +309,12 @@ namespace NinthArt
 					ChangePlayingState(PlayingState.Normal);
 					break;
 				case State.Win:
-					Analytics.LogLevelCompleteEvent();
 					gameplayUi.SetActive(false);
 					SceneManager.ClosePopups();
 					ChangePlayingState(PlayingState.Pause);
 					SceneManager.OpenPopup(SceneID.WinUI);
 					break;
 				case State.Lose:
-					Analytics.LogLevelFailEvent();
-
 					SceneManager.ClosePopups();
 					ChangePlayingState(PlayingState.Pause);
 					SceneManager.OpenPopup(SceneID.LoseUI);

@@ -1,5 +1,4 @@
-﻿using AppsFlyerSDK;
-using DG.Tweening;
+﻿using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -67,12 +66,7 @@ namespace NinthArt
         {
             if (CanSpin())
             {
-                AppsFlyer.sendEvent($"af_rewarded_ad_eligible", null);
-                Ads.ShowRewardedVideo("Spin", result =>
-                {
-                    if (result != RewardedVideoState.Watched) return;
-                    StartCoroutine(SpinWithRatio());
-                });
+                StartCoroutine(SpinWithRatio());
             }    
             else if(string.IsNullOrEmpty(GameManager.Notify))
                 GameManager.ShowNoti("You have run out of spins");

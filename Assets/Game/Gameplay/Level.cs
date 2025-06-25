@@ -1229,7 +1229,6 @@ namespace NinthArt
         {
             if (Config.replayLevel)//replay level
             {
-                Analytics.LogLevelStartEvent();
                 Config.replayLevel = false;
                 return false;
             }
@@ -1237,14 +1236,12 @@ namespace NinthArt
             string filePath = Application.persistentDataPath + GlobalDefine.LevelProgressDataPath;
             if (!File.Exists(filePath))//not have save file yet (new level 1)
             {
-                Analytics.LogLevelStartEvent();
                 return false;
             }
 
             LevelData levelData = GetLevelDataFromJson("001", filePath);
             if (levelData == null || levelData.levelId != Profile.Level.ToString("D3"))//new level
             {
-                Analytics.LogLevelStartEvent();
                 return false;
             }
 

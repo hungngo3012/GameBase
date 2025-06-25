@@ -1,4 +1,3 @@
-using AppsFlyerSDK;
 using NinthArt;
 using System;
 using System.Collections;
@@ -99,12 +98,7 @@ public class PointStop : MonoBehaviour
         }   
         else
         {
-            AppsFlyer.sendEvent($"af_rewarded_ad_eligible", null);
-            Ads.ShowRewardedVideo("unlock slot", result =>
-            {
-                if (result != RewardedVideoState.Watched) return;
-                UnlockPointStop();
-            });
+            UnlockPointStop();
         }    
     }
     #endregion

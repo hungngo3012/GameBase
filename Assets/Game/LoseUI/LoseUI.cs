@@ -1,4 +1,3 @@
-using AppsFlyerSDK;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -53,15 +52,10 @@ namespace NinthArt
 			if (continuePlay)
 				return;
 			SoundManager.PlaySfx("BtnClick");
-			AppsFlyer.sendEvent($"af_rewarded_ad_eligible", null);
-			Ads.ShowRewardedVideo("continue play", result =>
-			{
-				if (result != RewardedVideoState.Watched) return;
-
-				continuePlay = true;
-				Gameplay.Instance.ContinuePlay();
-				SceneManager.ClosePopup();
-			});
+			
+			continuePlay = true;
+			Gameplay.Instance.ContinuePlay();
+			SceneManager.ClosePopup();
 		}
 	}
 }

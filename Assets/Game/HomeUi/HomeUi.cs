@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using AppsFlyerSDK;
 using NinthArt;
 
 internal class HomeUi : Scene
@@ -24,7 +23,6 @@ internal class HomeUi : Scene
     [SerializeField] GameObject vipTag;
     private void Start()
     {
-        AppOpenAdController.CanAction = true;
         SceneManager.OpenScene(SceneID.HomeTab);
         wheelBtn.onClick.AddListener(() =>
         {
@@ -47,13 +45,14 @@ internal class HomeUi : Scene
         });
         settingBtn.onClick.AddListener(() => { SoundManager.PlaySfx("BtnClick"); SceneManager.OpenPopup(SceneID.SettingUI); });
 
-        avatar.GetComponent<Button>().onClick.AddListener(() => { SoundManager.PlaySfx("BtnClick"); SceneManager.OpenPopup(SceneID.InfoUi); });
+        if(avatar != null)
+            avatar.GetComponent<Button>().onClick.AddListener(() => { SoundManager.PlaySfx("BtnClick"); SceneManager.OpenPopup(SceneID.InfoUi); });
+        
         DisplayCoinAmount();
         DisplayStarAmount();
 
         if (!Profile.IsPlayed)
         {
-            AppsFlyer.sendEvent($"first_open", null);
             Profile.IsPlayed = true;
         }
         UpdateAvt();
@@ -94,14 +93,10 @@ internal class HomeUi : Scene
         EventManager.Unsubscribe(NinthArt.EventType.UpdateInfo, UpdateAvt);
         EventManager.Unsubscribe(NinthArt.EventType.VipChanged, ActiveVip);
     }
-    [ContextMenu("TestShowBanner")]
-    public void TestShowBanner()
-    {
-        AdmobBannerController.ShowBanner();
-    }    
     void UpdateAvt(object o = null)
-    {
-        avatar.sprite = skinConfig.avatars[Profile.CurAvt].avatar;
+    {   
+        if(avatar != null)
+            avatar.sprite = skinConfig.avatars[Profile.CurAvt].avatar;
     }   
     public void OnClickAddCoin()
     {

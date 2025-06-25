@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.funzilla.marketing-utils": "1.0.3",
-    "com.funzilla.simple-tweens": "1.0.6",
-    "com.funzilla.toony-shaders": "2.8.2",
-    "com.gameanalytics.sdk": "7.7.0",
-    "com.google.firebase.analytics": "11.9.0",
-    "com.google.firebase.app": "11.9.0",
-    "com.google.firebase.crashlytics": "11.9.0",
-    "com.google.firebase.remote-config": "11.9.0",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.spriteshape": "9.0.5",
     "com.unity.2d.tilemap": "1.0.0",
@@ -51,11 +43,11 @@
   },
   "scopedRegistries": [
     {
-      "name": "Funzilla Package Registry",
+      "name": "NinthArt Package Registry",
       "url": "http://34.72.115.139:4873",
       "scopes": [
         "com.google",
-        "com.funzilla",
+        "com.ninthArt",
         "io.dreamteck",
         "com.root-motion",
         "com.soxware"

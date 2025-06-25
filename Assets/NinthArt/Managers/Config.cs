@@ -1,8 +1,5 @@
 using System;
 using System.Threading.Tasks;
-using Firebase.Extensions;
-using Firebase.RemoteConfig;
-using GameAnalyticsSDK;
 using UnityEngine;
 
 #if !UNITY_EDITOR
@@ -113,10 +110,7 @@ namespace NinthArt
         private void Awake()
         {
             SetConfigDefault();
-            if(!isTest)
-                FetchDataAsync();
-            else
-                configLoaded = true;
+            configLoaded = true;
         }
 
         private void SetConfigDefault()
@@ -152,7 +146,6 @@ namespace NinthArt
             switch (_state)
             {
                 case State.Initializing:
-                    Ads.Instance.Init();
                     enabled = false;
                     _state = State.Initialized;
                     break;
@@ -163,52 +156,6 @@ namespace NinthArt
                 default:
                     throw new ArgumentOutOfRangeException();
             }
-        }
-
-        public Task FetchDataAsync()
-        {
-            Debug.Log("Fetching data...");
-            Task fetchTask = FirebaseRemoteConfig.DefaultInstance.FetchAsync(TimeSpan.Zero);
-            return fetchTask.ContinueWithOnMainThread(FetchComplete);
-        }
-        private void FetchComplete(Task fetchTask)
-        {
-            configLoaded = true;
-            if (!fetchTask.IsCompleted)
-            {
-                Debug.LogError("Retrieval hasn't finished.");
-                return;
-            }
-
-            var remoteConfig = FirebaseRemoteConfig.DefaultInstance;
-            var info = remoteConfig.Info;
-            if (info.LastFetchStatus != LastFetchStatus.Success)
-            {
-                Debug.LogError($"{nameof(FetchComplete)} was unsuccessful\n{nameof(info.LastFetchStatus)}: {info.LastFetchStatus}");
-                return;
-            }
-
-            // Fetch successful. Parameter values must be activated to use.
-            remoteConfig.ActivateAsync()
-                .ContinueWithOnMainThread(
-                    task => {
-                        Debug.Log($"Remote data loaded and ready for use. Last fetch time {info.FetchTime}.");
-
-                        ads_interval = remoteConfig.GetValue("ads_interval").LongValue;
-                        resume_ads = remoteConfig.GetValue("resume_ads").BooleanValue;
-                        show_open_ads_resume = remoteConfig.GetValue("show_open_ads_resume").BooleanValue;
-                        rating_popup = remoteConfig.GetValue("rating_popup").BooleanValue;
-                        show_open_ads = remoteConfig.GetValue("show_open_ads").BooleanValue;
-                        show_open_ads_first_open = remoteConfig.GetValue("show_open_ads_first_open").BooleanValue;
-                        level_show_inter = remoteConfig.GetValue("level_show_inter").LongValue;
-                        hien_qc = remoteConfig.GetValue("hien_qc").BooleanValue;
-
-                        InterstitialCappingTime = ads_interval;
-                        FirstInterstitialCappingTime = ads_interval;
-                        InterstitialRewardedVideoCappingTime = ads_interval;
-
-                        Debug.Log(ads_interval + " / " + resume_ads + " / " + rating_popup + " / " + show_open_ads + " / " + show_open_ads_first_open);
-                    });
         }
     }
 }

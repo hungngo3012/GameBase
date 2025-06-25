@@ -51,10 +51,7 @@ namespace NinthArt
 
                     //AppOpenAdController.CanAction = true;
                     tweener.Kill();
-                    if (!loadResume)
-                        StartCoroutine(WaitToEnterGame());
-                    else
-                        Ads.ShowReadyInter(CloseLoadingAfterShowAds);
+                    StartCoroutine(WaitToEnterGame());
                 });
         }
         public void CloseLoadingAfterShowAds()
@@ -83,11 +80,11 @@ namespace NinthArt
 
             //wait load aoa
             elapsedTime = 0.0f;
-            while (Config.InternetConnected && !AppOpenAdController.AOACompleted && (elapsedTime < timeout))
+            /*while (Config.InternetConnected && !AppOpenAdController.AOACompleted && (elapsedTime < timeout))
             {
                 elapsedTime += Time.deltaTime;
                 yield return null;
-            }
+            }*/
 
             yield return new WaitForSeconds(0.5f);
 

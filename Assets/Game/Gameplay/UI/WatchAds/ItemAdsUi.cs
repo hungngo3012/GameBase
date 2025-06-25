@@ -1,6 +1,4 @@
-﻿
-using AppsFlyerSDK;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -45,15 +43,9 @@ namespace NinthArt
         {
 			if (used)
 				return;
-
-			AppsFlyer.sendEvent($"af_rewarded_ad_eligible", null);
-			Ads.ShowRewardedVideo("GetItem", result =>
-            {
-                if (result != RewardedVideoState.Watched) return;
-
-				used = true;
-				UseItem();
-            });
+			
+			used = true;
+			UseItem();
         }			
 		void UseItem()
         {

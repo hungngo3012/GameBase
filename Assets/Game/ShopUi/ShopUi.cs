@@ -4,7 +4,6 @@ using UnityEngine;
 using NinthArt;
 using TMPro;
 using UnityEngine.UI;
-using AppsFlyerSDK;
 
 internal class ShopUi : Scene
 {
@@ -44,14 +43,8 @@ internal class ShopUi : Scene
     }     
     public void OnClickFreeCoinBtn(int val)
     {
-        AppsFlyer.sendEvent($"af_rewarded_ad_eligible", null);
-        Ads.ShowRewardedVideo("FreeCoin", result =>
-        {
-            if (result != RewardedVideoState.Watched) return;
-
-            SoundManager.PlaySfx("coin");
-            Profile.CoinAmount += val;
-            Profile.CoinCollected += val;
-        });
+        SoundManager.PlaySfx("coin");
+        Profile.CoinAmount += val;
+        Profile.CoinCollected += val;
     }   
 }

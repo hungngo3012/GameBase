@@ -9,7 +9,7 @@ namespace NinthArt
 #if UNITY_IOS
 		private const string TermsUrl = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/";
 #else
-		private const string TermsUrl = "https://funzilla.io/terms";
+		private const string TermsUrl = "https://ninthArt.io/terms";
 #endif
 		[SerializeField] private ToggleButton sfxToggle;
 		[SerializeField] private ToggleButton musicToggle;
@@ -29,10 +29,8 @@ namespace NinthArt
 #if UNITY_IOS
 			rateButton.onClick.AddListener(() => UnityEngine.iOS.Device.RequestStoreReview());
 #else
-			//rateButton.onClick.AddListener(() => Application.OpenURL("https://play.google.com/store/apps/details?id=" + Application.identifier));
+
 #endif
-			//privacyPolicyButton.onClick.AddListener(() => Application.OpenURL("https://www.funzilla.io/games/privacy"));
-			//termOfUseButton.onClick.AddListener(() => Application.OpenURL(TermsUrl));
 			RestartClick();
 			UpdateState();
 			sfxToggle.Init(Preference.SfxOn, active => Preference.SfxOn = active);
@@ -68,8 +66,6 @@ namespace NinthArt
 				return;
 			clickRestart = true;
 			SoundManager.PlaySfx("BtnClick");
-			if (Profile.Level > Config.LevelShowInter)
-				Ads.ShowInterstitial("clickRestartLevel_" + Profile.Level + "_interstitial");
 			Gameplay.Instance.OnClickReplay();
         }			
 		void UpdateState()

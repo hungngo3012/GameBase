@@ -1,11 +1,7 @@
-
 using System;
 using System.Collections.Generic;
-using Facebook.Unity;
 using UnityEngine;
-using GameAnalyticsSDK;
 using Unity.Services.Core;
-using GoogleMobileAds.Api;
 
 #if !UNITY_EDITOR
 using Firebase;
@@ -16,7 +12,6 @@ namespace NinthArt
 {
 	internal class GameManager : Singleton<GameManager>
 	{
-		public IapItems iapItems;
 #if !UNITY_EDITOR
 		internal static bool FirebaseOk { get; private set; }
 #endif
@@ -35,20 +30,7 @@ namespace NinthArt
 		{
 			if (_state != State.Initialized && _queue.Count <= 0)
 			{ // Don't open Gameplay if we don't start from the scene GameManager
-				UMPManager.Instance.InitUMP(() =>
-				{
-					Call(() =>
-					{
-						SceneManager.OpenScene(SceneID.LoadingScene);
-					});
-
-				}, () =>
-				{
-					Time.timeScale = 0;
-				}, () =>
-				{
-					Time.timeScale = 1;
-				});
+				SceneManager.OpenScene(SceneID.LoadingScene);
 			}
 		}
 		public bool cheat;
@@ -60,15 +42,6 @@ namespace NinthArt
 				case State.None:
 					Instance._state = State.InitializingFirebase;
 					Application.targetFrameRate = 60;
-					GameAnalytics.Initialize();
-
-					MobileAds.Initialize((InitializationStatus initStatus) =>
-					{
-						AppOpenAdController.Instance.LoadAOA();
-					});
-
-					//FB.Init(LogFBVersion);
-					IAP.Instance.Init();
 #if UNITY_EDITOR
 					//CheatMenu.Show();
 #else
@@ -101,10 +74,6 @@ namespace NinthArt
 				default:
 					throw new ArgumentOutOfRangeException();
 			}
-		}
-		static void LogFBVersion()
-		{
-			Debug.Log("Facebook SDK Version: " + FacebookSdkVersion.Build);
 		}
 		private void Update()
 		{
