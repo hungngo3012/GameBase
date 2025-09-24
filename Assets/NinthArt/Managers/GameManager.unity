@@ -512,7 +512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc11cefa6fe10a444a3a42aa7547d40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  androidUnitId: ca-app-pub-1919652342336147~2821510624
+  androidUnitId: ca-app-pub-3940256099942544~3347511713
   iosUnitId: 
   _bannerPosition: 1
   IsDebug: 0
