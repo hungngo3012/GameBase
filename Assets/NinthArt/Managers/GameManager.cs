@@ -4,8 +4,8 @@ using UnityEngine;
 using Unity.Services.Core;
 
 #if !UNITY_EDITOR
-using Firebase;
-using Firebase.Analytics;
+//using Firebase;
+//using Firebase.Analytics;
 #endif
 
 namespace NinthArt
@@ -44,23 +44,6 @@ namespace NinthArt
 					Application.targetFrameRate = 60;
 #if UNITY_EDITOR
 					//CheatMenu.Show();
-#else
-					FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task =>
-					{
-						if (task.Result != DependencyStatus.Available)
-						{
-							return;
-						}
-						FirebaseAnalytics.SetAnalyticsCollectionEnabled(true);
-						FirebaseOk = true;
-						
-						FirebaseApp app = FirebaseApp.DefaultInstance;
-						// Log ra th�ng tin Name v� AppId
-						/*
-						ShowNoti("Firebase Name: " + app.Name.ToString() + "\n" + 
-						"Firebase App ID: " + app.Options.AppId.ToString() + "\n" + 
-						"Project ID: + app.Options.ProjectId.ToString()");*/
-					});
 #endif
 					if (function != null) Instance._queue.Enqueue(function);
 					break;

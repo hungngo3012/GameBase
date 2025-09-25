@@ -4,7 +4,7 @@ using UnityEngine;
 
 #if !UNITY_EDITOR
 using System.Globalization;
-using GameAnalyticsSDK;
+//using GameAnalyticsSDK;
 #endif
 
 namespace NinthArt

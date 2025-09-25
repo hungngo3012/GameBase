@@ -96,7 +96,7 @@ namespace NinthArt
 			}
 			else
 			{
-				Handheld.Vibrate();
+				//Handheld.Vibrate();
 			}
 		}
 
@@ -145,7 +145,7 @@ namespace NinthArt
 
 		private void OnTriggerEnter(Collider other)
 		{
-			Handheld.Vibrate();
+			//Handheld.Vibrate();
 		}
 
 		internal static float LandDistance(Vector3 v1, Vector3 v2)

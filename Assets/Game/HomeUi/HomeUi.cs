@@ -71,7 +71,7 @@ internal class HomeUi : Scene
     }
     void ActiveVip(object o = null)
     {
-        vipTag.SetActive(Profile.Vip);
+        //vipTag.SetActive(Profile.Vip);
         removeAdsBtn.gameObject.SetActive(!Profile.Vip);
     }    
     void DisplayCoinAmount(object o = null)

@@ -38,7 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/ShopUi/ShopUi.unity
     guid: 464c9bcb47b3bbd448499debcdc4b84d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Game/PurchaseSuccessUi/PurchaseSuccessUi.unity
     guid: 7f4d1eba5d95c1a40976d4b24a7148e9
   - enabled: 1
@@ -81,3 +81,4 @@ EditorBuildSettings:
     path: Assets/Game/LoadingUI/LoadResumeAds.unity
     guid: d6b58567f132bbf41aaf666a89324bae
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
