@@ -2401,7 +2401,6 @@ GameObject:
   - component: {fileID: 2029010891}
   - component: {fileID: 2029010890}
   - component: {fileID: 2029010896}
-  - component: {fileID: 2029010897}
   m_Layer: 5
   m_Name: Ui
   m_TagString: Untagged
@@ -2507,29 +2506,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029010889}
   m_CullTransparentMesh: 1
---- !u!114 &2029010897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029010889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99c5a8be2d3fb23438e8828ddc2c300e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playBtn: {fileID: 1983559035}
-  wheelBtn: {fileID: 230302945}
-  rankBtn: {fileID: 1495204900}
-  removeAdsBtn: {fileID: 0}
-  settingBtn: {fileID: 354729494}
-  homeObj: {fileID: 0}
-  coinTxt: {fileID: 0}
-  starTxt: {fileID: 0}
-  avatar: {fileID: 0}
-  skinConfig: {fileID: 0}
-  vipTag: {fileID: 0}
 --- !u!1 &2096431258
 GameObject:
   m_ObjectHideFlags: 0

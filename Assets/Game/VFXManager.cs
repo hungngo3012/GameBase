@@ -65,12 +65,13 @@ internal class VFXManager : Singleton<VFXManager>
             }
         }
     }
-    private void Update()
+    private void FixedUpdate()
     {
         if(Input.GetMouseButtonDown(0))
         {
             Vector3 mousePosition = Input.mousePosition;
             mousePosition.z = 10f;
+            if(Camera.main == null) return;
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
             Instantiate(mouseClickVfx, worldPosition, Quaternion.identity);
             // Chơi âm thanh click
